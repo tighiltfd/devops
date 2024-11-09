@@ -1,0 +1,76 @@
+ 1  pwd
+    2  whoami
+    3  ls /
+    4  ls /root
+    5  ls /etc
+    6  cd /tmp
+    7  pwd
+    8  mkdir piit
+    9  cd piit
+   10  pwd
+   11  touch apple orange grape
+   12  touch file {1..10}.txt
+   13  ls
+   14  nano apple
+   15  which nano
+   16  whcih ls
+   17  which ls
+   18  which passwd
+   19  which useradd
+   20  nano apple
+   21  cd /
+   22  pwd
+   23  ls /tmp/piit
+   24  find /tmp/piit/ -name apple
+   25  find /tmp -mtime -7
+   26  find /tmp/piit -mtime -7
+   27  find /tmp/piit -mtime -1
+   28  find / -name a*.*
+   29  find / -name apple > test.txt
+   30  cat test.txt
+   31  find / -type f -name "*.log"
+   32  find / -size +100M
+   33  find / -size +20M
+   34  find / -type f -cmin
+   35  find / -type f -cmin 60
+   36  find / -type f -cmin -60
+   37  find / -type f -name "*.log"
+   38  ls
+   39  cd /tmp/piit
+   40  ls
+   41  diff apple orand
+   42  diff apple orange
+   43  nano orange
+   44  diff apple orange
+   45  file /etc/passwd
+   46  file /tmp/piit/apple
+   47  which ls
+   48  file /usr/bin/ls
+   49  touch jamal
+   50  nano jamal
+   51  file jamal
+   52  cat apple
+   53  grep "piit" /
+   54  grep -r "piit" /tmp/piit
+   55  grep -r "piit" /
+   56  grep -r "piit" /tmp
+   57  grep -r "devops" /tmp
+   58  grep -ri "ex2*" /etc/passwd
+   59  grep -ri "ec2*" /etc/passwd
+   60  cat /etc/passwd
+   61  useradd taous
+   62  passwd taous
+   63  usermod -l taouss taous
+   64  cat /etc/passwd
+   65  cat apple
+   66  sed -i 's/aws/azure/g' apple
+   67  cat apple
+   68  ip d >> apple
+   69  cat apple
+   70  ip addr >> apple
+   71  cat apple
+   72  head apple
+   73  tail apple
+   74  tail -n 3 apple
+   75  head -n 3 apple
+   76  history
